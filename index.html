@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Music Player</title>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="container">
+         <div class="music-container">
+            <div id="cover-box">
+               <img src="img/rangi saari.jpg" alt="cover-image" id="cover">
+            </div>
+            <div id="music-box">
+               <audio id="disc"></audio>
+               <div id="music-info">
+                  <h2 id="title"></h2>
+                  <h3 id="artist"></h3>
+                  <div id="progress-container">
+                     <div id="progress"></div>
+                  </div>
+                  <div id="timer-bar">
+                     <span id="timer">0:00</span>
+                     <span id="duration"></span>
+                  </div>
+               </div>
+               <div id="control-box">
+                  <i id="prev" class="btn fas fa-backward"></i>
+                  <i id="play" class="special-btn fas fa-play"></i>
+                  <i id="next" class="btn fas fa-forward"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="script.js"></script>
+   </body>
+</html>
